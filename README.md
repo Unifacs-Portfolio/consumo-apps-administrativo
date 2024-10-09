@@ -46,5 +46,10 @@ Estrutura do Projeto:
 
 Como iniciar o projeto:
 
-1. Precisa estar no diretório que englobe todas as pastas e arquivos que estão aqui no GitHub. Então clone o esse repositório do GitHub em uma pasta.
-2. No terminal, digitar npm start e apertar Enter.
+1. Clone esse repositório, git clone https://github.com/gscoimbra/Projeto-Extensao.git
+
+2. Após o clone, navegue até a pasta raiz do projeto, onde está o arquivo package.json.
+
+3. Estando na pasta raiz, acesse o terminal e digite npm install para instalar as dependências.
+
+4. Estando na pasta raiz, digite npm start para iniciar a aplicação.
