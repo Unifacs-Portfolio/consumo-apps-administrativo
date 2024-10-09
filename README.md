@@ -46,5 +46,5 @@ Estrutura do Projeto:
 
 Como iniciar o projeto:
 
-1. Precisa estar no diretório culinaria-app.
+1. Precisa estar no diretório que englobe todas as pastas e arquivos que estão aqui no GitHub. Então clone o esse repositório do GitHub em uma pasta.
 2. No terminal, digitar npm start e apertar Enter.

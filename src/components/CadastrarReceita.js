@@ -20,10 +20,10 @@ const CadastrarReceita = () => {
                 <div>
                     <label>Nome da Receita:</label>
                     <input 
-                        type="text" 
-                        value={nome} 
-                        onChange={(e) => setNome(e.target.value)} 
-                        required 
+                        type="text" // Define o tipo de entrada como texto
+                        value={nome}  // O valor do campo entrada está vincalo ao estado nome, ou seja, o que o usuário digitar será refletido no estado.
+                        onChange={(e) => setNome(e.target.value)} // A cada modificação no campo de texto, a função setNome atualiza o estado nome com o valor atual do campo.
+                        required // Torna o campo obrigatório.
                     />
                 </div>
                 <div>
