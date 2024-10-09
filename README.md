@@ -52,4 +52,4 @@ Como iniciar o projeto:
 
 3. Estando na pasta raiz, acesse o terminal e digite npm install para instalar as dependências.
 
-4. Estando na pasta raiz, digite npm start para iniciar a aplicação.
+4. Estando na pasta raiz, acesse o terminal e digite npm start para iniciar a aplicação.
