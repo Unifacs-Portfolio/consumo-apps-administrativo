@@ -1,3 +1,5 @@
+// A explicação é semelhante à que está no arquivo CadastrarReceita.js
+
 // src/components/CadastrarDica.js
 import React, { useState } from 'react';
 
