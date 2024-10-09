@@ -43,3 +43,8 @@ Estrutura do Projeto:
     - package.json: Um dos arquivos mais importantes, ele define as informações básicas do projeto(nome, versão, autor, etc.), lista as dependências(Bibliotecas necessárias para rodar a aplicação(como react, react-router-dom)), devDependencies(Bibliotecas usadas apenas em ambientes de desenvolvimento como Jest para testes), scripts(comandos que podem ser executados como npm start para rodar a aplicação em modo de desenvolvimento ou npm build para gerar a versão em produção).
 
     - README.md: Arquivo de documentação.
+
+Como iniciar o projeto:
+
+1. Precisa estar no diretório culinaria-app.
+2. No terminal, digitar npm start e apertar Enter.
