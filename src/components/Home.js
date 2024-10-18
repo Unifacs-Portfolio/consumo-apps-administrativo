@@ -21,13 +21,16 @@ const Home = () => {
 
     return (
         // <div className="home-container"> um contêiner div com a classe CSS home-container, isso permite que os estilos definidos em Home.css sejam aplicados. Mesma ideia para <h1 className="title">Culinária e Gastronomia</h1> e <div className="button-container">.
-        // <button onClick={() => navigateTo('/cadastrar-receita')}>Cadastrar Receita</button> um botão que ao ser clicado chama a função navigateTo com a rota /cadastar-receita, redirecionando o usuário para essa rota.
+        // <button onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button> um botão que ao ser clicado chama a função navigateTo com a rota /culinaria-gastronomia, redirecionando o usuário para essa rota.
         <div className="home-container">
-            <h1 className="title">Culinária e Gastronomia</h1>
+            <h1 className="title">Portal de Conteúdos</h1>
             <div className="button-container">
-                <button onClick={() => navigateTo('/cadastrar-receita')}>Cadastrar Receita</button>
-                <button onClick={() => navigateTo('/cadastrar-dica')}>Cadastrar Dica</button>
-                <button onClick={() => navigateTo('/editar')}>Editar Receita/Dica</button>
+                <button className="button-culinaria-gastronomia"onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button>
+                <button className="button-moda" button0onClick={() => navigateTo('/moda')}>Moda</button>
+                <button className="button-cosmeticos" onClick={() => navigateTo('/cosmeticos')}>Cosméticos</button>
+                <button className="button-engenharia" onClick={() => navigateTo('/engenharia')}>Engenharia</button>
+                <button className="button-ti" onClick={() => navigateTo('/ti')}>TI</button>
+                <button className="button-veterinaria" onClick={() => navigateTo('/veterinaria')}>Veterinária</button>
             </div>
         </div>
     );

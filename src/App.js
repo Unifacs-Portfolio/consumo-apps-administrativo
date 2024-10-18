@@ -1,10 +1,15 @@
 import React from 'react'; // Importa a biblioteca React para usar JSX(a sintaxe semelhante a HTML usada no React) e components. Embora não seja mais obrigatório, é feito por questões de compatibilidade e boas práticas.
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importa os componentes do React Router DOM. o Router(BrowserRouter) Routes e Route são usados para gerenciar navegação e rotas da aplicação.
 
-// Esses imports estão trazendo os componentes das páginas Home, CadastrarReceita e CadastrarDica para serem usados no roteamento da aplicação.
+// Esses imports estão trazendo os componentes das páginas Home, CulinariaGastronomia, Moda para serem usados no roteamento da aplicação.
 import Home from './components/Home';
-import CadastrarReceita from './components/CadastrarReceita';
-import CadastrarDica from './components/CadastrarDica';
+import CulinariaGastronomia from './components/CulinariaGastronomia';
+import Moda from './components/Moda';
+import Cosmeticos from './components/Cosmeticos';
+import Engenharia from './components/Engenharia';
+import TI from './components/TI';
+import Veterinaria from './components/Veterinaria';
+// Outras importações de páginas
 
 function App() {
   return (
@@ -17,8 +22,13 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cadastrar-receita" element={<CadastrarReceita />} />
-          <Route path="/cadastrar-dica" element={<CadastrarDica />} />
+          <Route path="/culinaria-gastronomia" element={<CulinariaGastronomia />} />
+          <Route path="/moda" element={<Moda />} />
+          <Route path="/cosmeticos" element={<Cosmeticos />} />
+          <Route path="/engenharia" element={<Engenharia />} />
+          <Route path="/ti" element={<TI />} />
+          <Route path="/veterinaria" element={<Veterinaria />} />
+          {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>
     </Router>
