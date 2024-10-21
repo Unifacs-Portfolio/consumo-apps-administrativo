@@ -26,7 +26,7 @@ const Home = () => {
             <h1 className="title">Portal de Conteúdos</h1>
             <div className="button-container">
                 <button className="button-culinaria-gastronomia"onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button>
-                <button className="button-moda" button0onClick={() => navigateTo('/moda')}>Moda</button>
+                <button className="button-moda" onClick={() => navigateTo('/moda')}>Moda</button>
                 <button className="button-cosmeticos" onClick={() => navigateTo('/cosmeticos')}>Cosméticos</button>
                 <button className="button-engenharia" onClick={() => navigateTo('/engenharia')}>Engenharia</button>
                 <button className="button-ti" onClick={() => navigateTo('/ti')}>TI</button>

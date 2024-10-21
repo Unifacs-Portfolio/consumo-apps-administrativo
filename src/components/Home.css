@@ -17,6 +17,7 @@
 }
 
 button {
+    background-color: #f2a057;
     color: white;
     padding: 15px 30px;
     margin: 15px; /* Espaçamento entre os botões */

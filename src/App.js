@@ -9,6 +9,11 @@ import Cosmeticos from './components/Cosmeticos';
 import Engenharia from './components/Engenharia';
 import TI from './components/TI';
 import Veterinaria from './components/Veterinaria';
+import CadastrarReceita from './components/CadastrarReceita';
+import CadastrarDica from './components/CadastrarDica';
+import InserirIngrediente from './components/InserirIngrediente';
+import InserirMidia from './components/InserirMidia';
+
 // Outras importações de páginas
 
 function App() {
@@ -28,6 +33,10 @@ function App() {
           <Route path="/engenharia" element={<Engenharia />} />
           <Route path="/ti" element={<TI />} />
           <Route path="/veterinaria" element={<Veterinaria />} />
+          <Route path="/cadastrar-receita" element={<CadastrarReceita />} />
+          <Route path="/cadastrar-duca" element={<CadastrarDica />} />
+          <Route path="/inserir-ingrediente" element={<InserirIngrediente />} />
+          <Route path="/inserir-midia" element={<InserirMidia />} />
           {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>
