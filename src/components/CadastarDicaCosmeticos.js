@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const CadastrarDicaModa = () => {
+const CadastrarDicaCosmeticos = () => {
     const [nome, setNome] = useState('');
     const [descricao, setDescricao] = useState('');
     const navigate = useNavigate();
@@ -14,7 +14,7 @@ const CadastrarDicaModa = () => {
 
     return (
         <div className="form-container">
-            <h2>Cadastrar Dica de Moda</h2>
+            <h2>Cadastrar Dica de Cosmético</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Título da Dica:</label>
@@ -26,7 +26,7 @@ const CadastrarDicaModa = () => {
                     />
                 </div>
                 <div>
-                    <label>Descrição da Dica de Moda:</label>
+                    <label>Descrição da Dica de Cosméticos:</label>
                     <textarea 
                         value={descricao} 
                         onChange={(e) => setDescricao(e.target.value)} 
@@ -34,7 +34,7 @@ const CadastrarDicaModa = () => {
                     />
                 </div>
                 <div className="button-container">
-                    <button type="button" onClick={() => navigate('/inserir-especificacoes')}>Inserir Especificações</button>
+                    <button type="button" onClick={() => navigate('/inserir-especificacoes-cosmeticos')}>Inserir Especificações</button>
                     <button type="button" onClick={() => navigate('/inserir-midia')}>Inserir Mídia</button>
                     <button type="submit">Cadastrar</button>
                 </div>
@@ -43,4 +43,4 @@ const CadastrarDicaModa = () => {
     );
 };
 
-export default CadastrarDicaModa;
+export default CadastrarDicaCosmeticos;

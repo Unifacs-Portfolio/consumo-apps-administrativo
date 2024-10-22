@@ -40,6 +40,7 @@ const CadastrarReceita = () => {
                 <div className="button-container">
                     <button type="button" onClick={() => navigate('/inserir-ingrediente')}>Inserir Ingrediente</button>
                     <button type="button" onClick={() => navigate('/inserir-midia')}>Inserir Mídia</button>
+                    <button type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>

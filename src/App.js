@@ -10,10 +10,15 @@ import Engenharia from './components/Engenharia';
 import TI from './components/TI';
 import Veterinaria from './components/Veterinaria';
 import CadastrarReceita from './components/CadastrarReceita';
-import CadastrarDica from './components/CadastrarDica';
+import CadastrarDicaCulinaria from './components/CadastrarDicaCulinaria';
 import InserirIngrediente from './components/InserirIngrediente';
 import InserirMidia from './components/InserirMidia';
-
+import CadastrarDicaModa from './components/CadastrarDicaModa';
+import CadastrarDicaEngenharia from './components/CadastrarDicaEngenharia';
+import CadastrarDicaCosmeticos from './components/CadastarDicaCosmeticos'
+import InserirEspecificacoesModa from './components/InserirEspecificacoesModa';
+import InserirEspecificacoesEngenharia from './components/InserirEspecificacoesEngenharia';
+import InserirEspecificacoesCosmeticos from './components/InserirEspecificacoesCosmeticos';
 // Outras importações de páginas
 
 function App() {
@@ -34,9 +39,15 @@ function App() {
           <Route path="/ti" element={<TI />} />
           <Route path="/veterinaria" element={<Veterinaria />} />
           <Route path="/cadastrar-receita" element={<CadastrarReceita />} />
-          <Route path="/cadastrar-duca" element={<CadastrarDica />} />
+          <Route path="/cadastrar-dica-culinaria" element={<CadastrarDicaCulinaria />} />
           <Route path="/inserir-ingrediente" element={<InserirIngrediente />} />
           <Route path="/inserir-midia" element={<InserirMidia />} />
+          <Route path="/cadastrar-dica-moda" element={<CadastrarDicaModa />} />
+          <Route path="/cadastrar-dica-engenharia" element={<CadastrarDicaEngenharia />} />
+          <Route path="/cadastrar-dica-cosmeticos" element={<CadastrarDicaCosmeticos />} />
+          <Route path="/inserir-especificacoes-moda" element={<InserirEspecificacoesModa />} />
+          <Route path="/inserir-especificacoes-engenharia" element={<InserirEspecificacoesEngenharia />} />
+          <Route path="/inserir-especificacoes-cosmeticos" element={<InserirEspecificacoesCosmeticos />} />
           {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>

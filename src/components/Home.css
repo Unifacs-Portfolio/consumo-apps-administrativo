@@ -29,7 +29,8 @@ button {
 }
 
 button:hover {
-    background-color: #FF4500;
+    transform: scale(1.05); /* Um leve aumento no tamanho */
+    filter: brightness(1.1); /* Aumenta o brilho sem mudar a cor completamente */
 }
 
 /* Estilo para os formulários */
