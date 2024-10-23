@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const InserirEspecificacoes = () => {
+const InserirEspecificacoesModa = () => {
     const [cor, setCor] = useState('');
     const [tecido, setTecido] = useState('');
     const [medidas, setMedidas] = useState('');
@@ -57,4 +57,4 @@ const InserirEspecificacoes = () => {
     );
 };
 
-export default InserirEspecificacoes;
+export default InserirEspecificacoesModa;

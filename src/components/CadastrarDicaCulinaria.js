@@ -1,11 +1,10 @@
-// A explicação é semelhante à que está no arquivo CadastrarReceita.js
-
-// src/components/CadastrarDica.js
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const CadastrarDica = () => {
+const CadastrarDicaCulinaria = () => {
     const [nome, setNome] = useState('');
     const [descricao, setDescricao] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -15,10 +14,10 @@ const CadastrarDica = () => {
 
     return (
         <div className="form-container">
-            <h2>Cadastrar Dica</h2>
+            <h2>Cadastrar Dica de Culinária</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Nome da Dica:</label>
+                    <label>Título da Dica:</label>
                     <input 
                         type="text" 
                         value={nome} 
@@ -27,17 +26,21 @@ const CadastrarDica = () => {
                     />
                 </div>
                 <div>
-                    <label>Descrição da Dica:</label>
+                    <label>Descrição da Dica de Culinária:</label>
                     <textarea 
                         value={descricao} 
                         onChange={(e) => setDescricao(e.target.value)} 
                         required 
                     />
                 </div>
-                <button type="submit">Cadastrar</button>
+                <div className="button-container">
+                    <button type="button" onClick={() => navigate('/inserir-especificacoes-culinaria')}>Inserir Especificações</button>
+                    <button type="button" onClick={() => navigate('/inserir-midia')}>Inserir Mídia</button>
+                    <button type="submit">Cadastrar</button>
+                </div>
             </form>
         </div>
     );
 };
 
-export default CadastrarDica;
+export default CadastrarDicaCulinaria;

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const EditarDicaOuReceitaCulinaria = () => {
+const CadastrarDicaTI = () => {
     const [nome, setNome] = useState('');
     const [descricao, setDescricao] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -13,7 +14,7 @@ const EditarDicaOuReceitaCulinaria = () => {
 
     return (
         <div className="form-container">
-            <h2>Edição Moda</h2>
+            <h2>Cadastrar Dica de TI</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Título da Dica:</label>
@@ -24,12 +25,22 @@ const EditarDicaOuReceitaCulinaria = () => {
                         required 
                     />
                 </div>
+                <div>
+                    <label>Descrição da Dica de TI:</label>
+                    <textarea 
+                        value={descricao} 
+                        onChange={(e) => setDescricao(e.target.value)} 
+                        required 
+                    />
+                </div>
                 <div className="button-container">
-                    <button type="submit">Editar</button>
+                    <button type="button" onClick={() => navigate('/inserir-especificacoes-ti')}>Inserir Especificações</button>
+                    <button type="button" onClick={() => navigate('/inserir-midia')}>Inserir Mídia</button>
+                    <button type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
     );
 };
 
-export default EditarDicaOuReceitaCulinaria;
+export default CadastrarDicaTI;

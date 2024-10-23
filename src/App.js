@@ -11,14 +11,26 @@ import TI from './components/TI';
 import Veterinaria from './components/Veterinaria';
 import CadastrarReceita from './components/CadastrarReceita';
 import CadastrarDicaCulinaria from './components/CadastrarDicaCulinaria';
-import InserirIngrediente from './components/InserirIngrediente';
-import InserirMidia from './components/InserirMidia';
 import CadastrarDicaModa from './components/CadastrarDicaModa';
 import CadastrarDicaEngenharia from './components/CadastrarDicaEngenharia';
-import CadastrarDicaCosmeticos from './components/CadastarDicaCosmeticos'
+import CadastrarDicaCosmeticos from './components/CadastrarDicaCosmeticos';
+import CadastrarDicaTI from './components/CadastrarDicaTI';
+import CadastrarDicaVeterinaria from './components/CadastrarDicaVeterinaria';
+import InserirEspecificacoesCulinaria from './components/InserirEspecificacoesCulinaria';
 import InserirEspecificacoesModa from './components/InserirEspecificacoesModa';
 import InserirEspecificacoesEngenharia from './components/InserirEspecificacoesEngenharia';
 import InserirEspecificacoesCosmeticos from './components/InserirEspecificacoesCosmeticos';
+import InserirEspecificacoesTI from './components/InserirEspecificacoesTI';
+import InserirEspecificacoesVeterinaria from './components/InserirEspecificacoesVeterinaria';
+import InserirIngrediente from './components/InserirIngrediente';
+import InserirMidia from './components/InserirMidia';
+import EditarDicaOuReceitaCulinaria from './components/EditarDicaOuReceitaCulinaria';
+import EditarDicaCosmeticos from './components/EditarDicaCosmeticos';
+import EditarDicaEngenharia from './components/EditarDicaEngenharia';
+import EditarDicaTI from './components/EditarDicaTI';
+import EditarDicaVeterinaria from './components/EditarDicaVeterinaria';
+import EditarDicaModa from './components/EditarDicaModa';
+
 // Outras importações de páginas
 
 function App() {
@@ -39,15 +51,26 @@ function App() {
           <Route path="/ti" element={<TI />} />
           <Route path="/veterinaria" element={<Veterinaria />} />
           <Route path="/cadastrar-receita" element={<CadastrarReceita />} />
-          <Route path="/cadastrar-dica-culinaria" element={<CadastrarDicaCulinaria />} />
           <Route path="/inserir-ingrediente" element={<InserirIngrediente />} />
           <Route path="/inserir-midia" element={<InserirMidia />} />
+          <Route path="/cadastrar-dica-culinaria" element={<CadastrarDicaCulinaria />} />
           <Route path="/cadastrar-dica-moda" element={<CadastrarDicaModa />} />
           <Route path="/cadastrar-dica-engenharia" element={<CadastrarDicaEngenharia />} />
           <Route path="/cadastrar-dica-cosmeticos" element={<CadastrarDicaCosmeticos />} />
+          <Route path="/cadastrar-dica-ti" element={<CadastrarDicaTI />} />
+          <Route path="/cadastrar-dica-veterinaria" element={<CadastrarDicaVeterinaria />} />
+          <Route path="/inserir-especificacoes-culinaria" element={<InserirEspecificacoesCulinaria />} />
           <Route path="/inserir-especificacoes-moda" element={<InserirEspecificacoesModa />} />
           <Route path="/inserir-especificacoes-engenharia" element={<InserirEspecificacoesEngenharia />} />
           <Route path="/inserir-especificacoes-cosmeticos" element={<InserirEspecificacoesCosmeticos />} />
+          <Route path="/inserir-especificacoes-ti" element={<InserirEspecificacoesTI />} />
+          <Route path="/inserir-especificacoes-veterinaria" element={<InserirEspecificacoesVeterinaria />} />
+          <Route path="/editar-dica-ou-receita-culinaria" element={<EditarDicaOuReceitaCulinaria />} />
+          <Route path="/editar-dica-moda" element={<EditarDicaModa />} />
+          <Route path="/editar-dica-cosmeticos" element={<EditarDicaCosmeticos/>} />
+          <Route path="/editar-dica-engenharia" element={<EditarDicaEngenharia />} />
+          <Route path="/editar-dica-ti" element={<EditarDicaTI />} />
+          <Route path="/editar-dica-veterinaria" element={<EditarDicaVeterinaria />} />
           {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>

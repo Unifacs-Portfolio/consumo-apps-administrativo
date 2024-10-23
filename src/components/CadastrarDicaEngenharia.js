@@ -14,7 +14,7 @@ const CadastrarDicaEngenharia = () => {
 
     return (
         <div className="form-container">
-            <h2>Cadastrar Dica de Moda</h2>
+            <h2>Cadastrar Dica de Engenharia</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Título da Dica:</label>

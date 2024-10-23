@@ -1,7 +1,4 @@
-// O componente Home é uma página principal que exibe o título ("Culinária e Gastronomia") e três botões:
-// "Cadastrar Receita" redireciona para /cadastrar-receita,
-// "Cadastrar Dica" redireciona para /cadastrar-dica,
-// "Editar Receita/Dica" redireciona para /editar.
+// O componente Home é uma página principal que exibe o título ("Portal de Conteúdos") e alguns botões para redirecionar a outras páginas.
 // A função useNavigate permite redirecionar o usuário de maneira programática, sem a necessidade de links <a> tradicionais.
 // Em resumo o Home centraliza a navegação entre as páginas, funcionando como um "hub".
 
@@ -24,6 +21,9 @@ const Home = () => {
         // <button onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button> um botão que ao ser clicado chama a função navigateTo com a rota /culinaria-gastronomia, redirecionando o usuário para essa rota.
         <div className="home-container">
             <h1 className="title">Portal de Conteúdos</h1>
+            <div>
+                <button className="button-comunidade" onClick={() => navigateTo('/comunidade')}>Comunidade</button>
+            </div>
             <div className="button-container">
                 <button className="button-culinaria-gastronomia"onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button>
                 <button className="button-moda" onClick={() => navigateTo('/moda')}>Moda</button>

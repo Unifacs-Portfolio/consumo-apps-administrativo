@@ -13,7 +13,7 @@ const EditarDicaOuReceitaCulinaria = () => {
 
     return (
         <div className="form-container">
-            <h2>Edição Moda</h2>
+            <h2>Edição Engenharia</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Título da Dica:</label>
