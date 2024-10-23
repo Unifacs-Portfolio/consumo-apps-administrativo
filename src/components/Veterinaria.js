@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Home.css';  // Reutilizando a mesma estilização para manter a consistência
+import './Home.css';
 
 const Veterinaria = () => {
     const navigate = useNavigate();

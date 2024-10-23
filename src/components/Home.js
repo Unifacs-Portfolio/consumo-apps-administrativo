@@ -25,7 +25,7 @@ const Home = () => {
                 <button className="button-comunidade" onClick={() => navigateTo('/comunidade')}>Comunidade</button>
             </div>
             <div className="button-container">
-                <button className="button-culinaria-gastronomia"onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button>
+                <button className="button-culinaria-gastronomia" onClick={() => navigateTo('/culinaria-gastronomia')}>Culinária e Gastronomia</button>
                 <button className="button-moda" onClick={() => navigateTo('/moda')}>Moda</button>
                 <button className="button-cosmeticos" onClick={() => navigateTo('/cosmeticos')}>Cosméticos</button>
                 <button className="button-engenharia" onClick={() => navigateTo('/engenharia')}>Engenharia</button>

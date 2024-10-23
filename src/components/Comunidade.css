@@ -27,7 +27,7 @@ p {
     align-items: center;
 }
 
-button {
+.button {
     background-color: #8A2BE2;
     color: white;
     padding: 15px 30px;
@@ -39,9 +39,9 @@ button {
     width: 300px;
 }
 
-button:hover {
+/* button:hover {
     background-color: #6A0DAD;
-}
+} */
 
 .dicas-verificadas {
     margin-top: 40px;

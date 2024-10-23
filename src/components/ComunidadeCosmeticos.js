@@ -24,8 +24,8 @@ const ComunidadeCosmeticos = () => {
           placeholder="Digite o título da dica"
         />
         <div className="button-container">
-          <button onClick={handleAprovar}>Aprovar</button>
-          <button onClick={handleReprovar}>Reprovar</button>
+          <button className='button' onClick={handleAprovar}>Aprovar</button>
+          <button className='button' onClick={handleReprovar}>Reprovar</button>
         </div>
       </div>
 

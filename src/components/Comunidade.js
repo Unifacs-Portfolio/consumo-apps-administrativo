@@ -13,12 +13,12 @@ const Comunidade = () => {
       </p>
 
       <div className="hub-buttons">
-        <button onClick={() => navigate('/comunidade-culinaria')}>Comunidade - Culinária e Gastronomia</button>
-        <button onClick={() => navigate('/comunidade-moda')}>Comunidade - Moda</button>
-        <button onClick={() => navigate('/comunidade-cosmeticos')}>Comunidade - Cosméticos</button>
-        <button onClick={() => navigate('/comunidade-engenharia')}>Comunidade - Engenharia</button>
-        <button onClick={() => navigate('/comunidade-ti')}>Comunidade - TI</button>
-        <button onClick={() => navigate('/comunidade-veterinaria')}>Comunidade - Veterinária</button>
+        <button className="button" onClick={() => navigate('/comunidade-culinaria')}>Comunidade - Culinária e Gastronomia</button>
+        <button className="button" onClick={() => navigate('/comunidade-moda')}>Comunidade - Moda</button>
+        <button className="button" onClick={() => navigate('/comunidade-cosmeticos')}>Comunidade - Cosméticos</button>
+        <button className="button" onClick={() => navigate('/comunidade-engenharia')}>Comunidade - Engenharia</button>
+        <button className="button" onClick={() => navigate('/comunidade-ti')}>Comunidade - TI</button>
+        <button className="button" onClick={() => navigate('/comunidade-veterinaria')}>Comunidade - Veterinária</button>
         {/* Adicione mais botões conforme necessário */}
       </div>
     </div>

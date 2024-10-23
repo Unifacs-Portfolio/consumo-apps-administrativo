@@ -37,7 +37,6 @@ import ComunidadeCosmeticos from './components/ComunidadeCosmeticos';
 import ComunidadeEngenharia from './components/ComunidadeEngenharia';
 import ComunidadeTI from './components/ComunidadeTI';
 import ComunidadeVeterinaria from './components/ComunidadeVeterinaria';
-
 // Outras importações de páginas
 
 function App() {
@@ -85,7 +84,6 @@ function App() {
           <Route path="/comunidade-Engenharia" element={<ComunidadeEngenharia />} />
           <Route path="/comunidade-ti" element={<ComunidadeTI />} />
           <Route path="/comunidade-veterinaria" element={<ComunidadeVeterinaria />} />
-
           {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>

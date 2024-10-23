@@ -1,8 +1,8 @@
-// src/components/CadastrarReceita.js
 import React, { useState } from 'react'; // Importa o React e o hook useState para gerenciar o estado.
 // useState é um hook usado para gerenciar o estado local do componente, aqui ele vai ser usado para armazenar o nome e a descrição da receita.
 
 import { useNavigate } from 'react-router-dom'; // Importar useNavigate de react-router-dom
+import './Home.css';
 
 const CadastrarReceita = () => {
     const [nome, setNome] = useState(''); // Estado para armazenar o nome da receita. Inicialmente uma string vazia. setNome é a função associada ao estado nome, que permite atualizar o valor do nome.

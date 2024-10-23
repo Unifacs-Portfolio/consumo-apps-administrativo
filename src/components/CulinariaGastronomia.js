@@ -1,7 +1,6 @@
-// src/components/CulinariaGastronomia.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Home.css'; // Você pode usar o CSS que já está estilizando
+import './Home.css';
 
 const CulinariaGastronomia = () => {
     const navigate = useNavigate();
