@@ -9,6 +9,7 @@ import Cosmeticos from './components/Cosmeticos';
 import Engenharia from './components/Engenharia';
 import TI from './components/TI';
 import Veterinaria from './components/Veterinaria';
+import Comunidade from './components/Comunidade';
 import CadastrarReceita from './components/CadastrarReceita';
 import CadastrarDicaCulinaria from './components/CadastrarDicaCulinaria';
 import CadastrarDicaModa from './components/CadastrarDicaModa';
@@ -16,7 +17,7 @@ import CadastrarDicaEngenharia from './components/CadastrarDicaEngenharia';
 import CadastrarDicaCosmeticos from './components/CadastrarDicaCosmeticos';
 import CadastrarDicaTI from './components/CadastrarDicaTI';
 import CadastrarDicaVeterinaria from './components/CadastrarDicaVeterinaria';
-import InserirEspecificacoesCulinaria from './components/InserirEspecificacoesCulinaria';
+import InserirEspecificacoesCulinaria from './components/InserirEspecificacoesCulinaria'; // Para a Dica
 import InserirEspecificacoesModa from './components/InserirEspecificacoesModa';
 import InserirEspecificacoesEngenharia from './components/InserirEspecificacoesEngenharia';
 import InserirEspecificacoesCosmeticos from './components/InserirEspecificacoesCosmeticos';
@@ -30,6 +31,12 @@ import EditarDicaEngenharia from './components/EditarDicaEngenharia';
 import EditarDicaTI from './components/EditarDicaTI';
 import EditarDicaVeterinaria from './components/EditarDicaVeterinaria';
 import EditarDicaModa from './components/EditarDicaModa';
+import ComunidadeCulinaria from './components/ComunidadeCulinaria';
+import ComunidadeModa from './components/ComunidadeModa';
+import ComunidadeCosmeticos from './components/ComunidadeCosmeticos';
+import ComunidadeEngenharia from './components/ComunidadeEngenharia';
+import ComunidadeTI from './components/ComunidadeTI';
+import ComunidadeVeterinaria from './components/ComunidadeVeterinaria';
 
 // Outras importações de páginas
 
@@ -50,9 +57,8 @@ function App() {
           <Route path="/engenharia" element={<Engenharia />} />
           <Route path="/ti" element={<TI />} />
           <Route path="/veterinaria" element={<Veterinaria />} />
+          <Route path="/comunidade" element={<Comunidade />} />
           <Route path="/cadastrar-receita" element={<CadastrarReceita />} />
-          <Route path="/inserir-ingrediente" element={<InserirIngrediente />} />
-          <Route path="/inserir-midia" element={<InserirMidia />} />
           <Route path="/cadastrar-dica-culinaria" element={<CadastrarDicaCulinaria />} />
           <Route path="/cadastrar-dica-moda" element={<CadastrarDicaModa />} />
           <Route path="/cadastrar-dica-engenharia" element={<CadastrarDicaEngenharia />} />
@@ -65,12 +71,21 @@ function App() {
           <Route path="/inserir-especificacoes-cosmeticos" element={<InserirEspecificacoesCosmeticos />} />
           <Route path="/inserir-especificacoes-ti" element={<InserirEspecificacoesTI />} />
           <Route path="/inserir-especificacoes-veterinaria" element={<InserirEspecificacoesVeterinaria />} />
+          <Route path="/inserir-ingrediente" element={<InserirIngrediente />} />
+          <Route path="/inserir-midia" element={<InserirMidia />} />
           <Route path="/editar-dica-ou-receita-culinaria" element={<EditarDicaOuReceitaCulinaria />} />
           <Route path="/editar-dica-moda" element={<EditarDicaModa />} />
           <Route path="/editar-dica-cosmeticos" element={<EditarDicaCosmeticos/>} />
           <Route path="/editar-dica-engenharia" element={<EditarDicaEngenharia />} />
           <Route path="/editar-dica-ti" element={<EditarDicaTI />} />
           <Route path="/editar-dica-veterinaria" element={<EditarDicaVeterinaria />} />
+          <Route path="/comunidade-culinaria" element={<ComunidadeCulinaria />} />
+          <Route path="/comunidade-moda" element={<ComunidadeModa />} />
+          <Route path="/comunidade-cosmeticos" element={<ComunidadeCosmeticos />} />
+          <Route path="/comunidade-Engenharia" element={<ComunidadeEngenharia />} />
+          <Route path="/comunidade-ti" element={<ComunidadeTI />} />
+          <Route path="/comunidade-veterinaria" element={<ComunidadeVeterinaria />} />
+
           {/* Adicione as outras rotas aqui */}
         </Routes>
       </div>
