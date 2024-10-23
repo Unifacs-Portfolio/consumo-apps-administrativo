@@ -18,8 +18,8 @@ Estrutura do Projeto:
 
 3. src: O diretório principal onde todo o código da aplicação React reside.
 
-    - components: Diretório contendo os componentes do projeto. No caso os componentes CadastrarDica.js, CadastrarReceita.js e Home.js
-
+    - components: Diretório contendo os componentes do projeto.
+    
     - App.js: O componente principal que gerencia as rotas.
 
     - index.js: O ponto de entrada da aplicação, onde o React é renderizado no DOM(dentro de index.html do public)
